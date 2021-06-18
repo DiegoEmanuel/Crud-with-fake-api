@@ -39,6 +39,5 @@ export class HomePage {
     this.apiService.updateData(data).subscribe(data => {
       console.log(data);
     });
-
   }
 }
