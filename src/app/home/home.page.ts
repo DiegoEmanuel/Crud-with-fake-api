@@ -11,7 +11,7 @@ export class HomePage {
   constructor(private apiService: ApiService) {
     //  this.createData();
     // this.readData();
-    this.updateData();
+    // this.updateData();
     // this.deleteData();
   }
   createData() {
@@ -38,6 +38,11 @@ export class HomePage {
     };
     this.apiService.updateData(data).subscribe(data => {
       console.log(data);
+    });
+  }
+  deleteData (){
+    this.apiService.deleteData().subscribe(data=>{
+      console.log
     });
   }
 }

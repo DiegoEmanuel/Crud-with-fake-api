@@ -20,7 +20,8 @@ export class ApiService {
     return this.http.put(`${this.api}posts/1`,JSON.stringify(data),this.options);
   }
   deleteData() {
-
+    return this.http.delete(`${this.api}posts/1`);
   }
-}
+ }
+
 
