@@ -1,2 +1,2 @@
 ﻿# Ionic-Consumer
-[x] A dota 2 consumer api open source
+[x] A crud teste whit a fake api
